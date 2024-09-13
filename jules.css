@@ -10,41 +10,55 @@
 }
 
 
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;                         /* margin + padding vult zo hele scherm, text-align zet tekst in t midden. */
+}
 
 header {
     font-family: "caramel";
-    background-image: url(../your-tribe-squad-page/docs/amstelcampus.jpeg) repeat: 1;
-
-    /* background-color: rgb(166, 134, 106);
-    align-content: center; */
+    background-image: url(../your-tribe-squad-page/amstelcampus4.png);
+    background-size: cover;
+    height: 200px;
 }
 
 
 p {
     font-family: "roboto";
+    color:rgb(63, 40, 27);
 }
 h1 {
     font-size: 4em;
+    color: rgb(217, 203, 191);
+    margin: 0;
+    text-align: center;
+    padding: 50px;                              /* de padding zorgt ervoor dat ook van boven/onder in t midden staat */
 }
 h2 {
     font-size: 2em;
     font-family: "roboto";
+    color:rgb(63, 40, 27);
 }
 h3 {
     font-size: 2em;
     font-family: "roboto";
 }
 
+section {
+    padding: 5px;                               /* laat de section op de header aansluiten. */
+}
 
 section.inleiding {
     background-color: rgb(242, 234, 228);
 }
 
 section.mugshots {
+    padding-top: 45px;                          /* meer ruimte tussen mugshots en inleiding */
     background-color: rgb(242, 234, 228);
 
-/* foto's naast elkaar. */
-    div{
+
+    div{                                        /* foto's naast elkaar. */
         display: grid;
         gap: .5em;
         grid-template-columns: 1fr 1fr;
@@ -56,8 +70,9 @@ section.mugshots {
 
 button.visitekaartjes {
     font-size: 16px;
-    border-radius: 20px;
-    border: 5px;
+    border-radius: 20px;                        /* zorgt voor ronde randen button */
+    border: solid 2px;
+    border-color: rgb(166, 134, 106);
     min-height: 30px;
     min-width: 120px;
     font-family: "roboto";
@@ -67,13 +82,17 @@ button.visitekaartjes {
 button.amstelcampus {
     font-size: 16px;
     border-radius: 20px;
-    border: 5px;
+    border: solid 2px;
+    border-color: rgb(166, 134, 106);
     min-height: 30px;
     min-width: 120px;
     font-family: "roboto";
     background-color: rgb(217, 203, 191);
 }
 
+button:hover {
+    color: rgb(255, 145, 0);
+}
 
 /* opmaak afbeeldingen mugshots */
 img {
@@ -88,7 +107,7 @@ a:link {
     color: rgb(115, 78, 56);
     font-family: "caramel";
     font-size: 26px;
-    text-decoration: none;
+    text-decoration: none;                     /* geen lijn onder de link */
 }
 
 /* opmaak na het bezoeken vd link */
@@ -100,3 +119,4 @@ a:visited {
 a:hover {
     color: rgb(255, 145, 0);
 }
+

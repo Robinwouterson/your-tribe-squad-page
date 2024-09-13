@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../your-tribe-squad-page/fonts/Roboto-Condensed.ttf);
+}
+
+@font-face {
+    font-family: "caramel";
+    src: url(../your-tribe-squad-page/fonts/Caramel.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;                         /* margin + padding vult zo hele scherm, text-align zet tekst in t midden. */
+}
+
+header {
+    font-family: "caramel";
+    background-image: url(../your-tribe-squad-page/amstelcampus4.png);
+    background-size: cover;
+    height: 200px;
+    /* background-color: rgb(166, 134, 106);
+    align-content: center; */
+}
+
+section {
+    background-color: rgb(217, 203, 191)
+
+}
+
+
+p {
+    font-family: "roboto";
+    text-align: center;
+    padding: 25px;
+    color:rgb(63, 40, 27);
+}
+
+nav {
+    font-family: "roboto";
+    background-color: rgb(217, 203, 191);
+}
+
+h1 {
+    font-size: 4em;
+    color: rgb(217, 203, 191);
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+img {
+    height: 125px;
+}
