@@ -1,0 +1,35 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #22223B;
+    background-color: #696e8d;
+}
+
+.tekst {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A4E69;
+    background-color: #F2E9E4;
+}
+
+.mugshots {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 2px solid #22223B;
+    width: 100px
+}
+
+h1 {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
