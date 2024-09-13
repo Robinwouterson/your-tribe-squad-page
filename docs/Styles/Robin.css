@@ -2,10 +2,12 @@ html, body {
     height: 100% 1
 }
 
+
 body {
     display: grid;
     place-items: center;
 }
+
 
 .header {
     width: 100%;
@@ -41,6 +43,7 @@ body {
     font-weight: 200; 
 }
 
+
 .logo_container h1 span {
     font-weight: 800;
 
@@ -52,6 +55,7 @@ body {
     height: 100%;
 }
 
+
 .navigation a {
     height: 100%;
     display: table;
@@ -59,10 +63,12 @@ body {
     padding: 0px 20px;
 }
 
+
 .navigation a:last-child {
     padding-right: 0;
     
 }
+
 
 .navigation a li {
     display: table-cell;
@@ -71,9 +77,8 @@ body {
     color: black;
     font-family: 'Montserrat';
     font-size: 16px;
-
-
 }
+
 
 .container-grid {
     display: grid;
@@ -176,6 +181,7 @@ img {
     font-size: 20px;
 }
 
+
 .section8 {
     grid-column: 4;
     grid-row: 2;
@@ -194,6 +200,7 @@ img {
     text-align: center;
     font-size: 20px;
 }
+
 
 .section10 {
     grid-column: 2;
@@ -214,6 +221,7 @@ img {
     font-size: 20px;
 }
 
+
 .section12 {
     grid-column: 4;
     grid-row: 3;
@@ -223,6 +231,15 @@ img {
     font-size: 20px;
 }
 
+
+.section13 {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: black;
+    color: palevioletred;
+    text-align: center;
+    font-size: 20px;
+}
 
 .section13 {
     grid-column: 1;
@@ -252,6 +269,7 @@ img {
     font-size: 20px;
 }
 
+
 .section16 {
     grid-column: 4;
     grid-row: 4;
@@ -271,6 +289,7 @@ img {
     font-size: 20px;
 }
 
+
 .section18 {
     grid-column: 2;
     grid-row: 5;
@@ -289,6 +308,7 @@ img {
     text-align: center;
     font-size: 20px;
 }
+
 
 .section20 {
     grid-column: 4;
