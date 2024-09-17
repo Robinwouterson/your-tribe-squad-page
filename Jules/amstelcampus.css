@@ -1,46 +1,50 @@
 @font-face {
     font-family: "roboto";
-    src: url(../your-tribe-squad-page/fonts/Roboto-Condensed.ttf);
+    src: url(../Jules/fonts/Roboto-Condensed.ttf);
 }
 
 @font-face {
     font-family: "caramel";
-    src: url(../your-tribe-squad-page/fonts/Caramel.ttf);
+    src: url(../Jules/fonts/Caramel.ttf);
 }
 
 
 body {
     margin: 0;
-    padding: 0;
-    text-align: center;                         /* margin + padding vult zo hele scherm, text-align zet tekst in t midden. */
+    padding: 0; /* margin + padding vult zo hele scherm. */
+    background-color: rgb(242, 234, 228)
 }
 
 header {
     font-family: "caramel";
-    background-image: url(../your-tribe-squad-page/amstelcampus4.png);
+    background-image: url(../Jules/images/background.png);
     background-size: cover;
     height: 200px;
     /* background-color: rgb(166, 134, 106);
     align-content: center; */
 }
 
-section {
-    background-color: rgb(217, 203, 191)
-
-}
 
 
 p {
     font-family: "roboto";
-    text-align: center;
     padding: 25px;
     color:rgb(63, 40, 27);
+    margin: 25px;
 }
 
 nav {
     font-family: "roboto";
     background-color: rgb(217, 203, 191);
 }
+
+ul {
+    list-style-type: none;
+    font-family: "roboto";
+    padding: 25px;
+}
+
+
 
 h1 {
     font-size: 4em;
@@ -50,8 +54,54 @@ h1 {
     padding: 50px;
 }
 
+.card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 1em;
+    margin: 15px;
 
 
-img {
-    height: 125px;
+    img {
+        grid-column: 1;
+        grid-row: 1/3;
+        max-width: 100%;
+        height: auto;
+        border: solid 2px;
+        border-color: rgb(166, 134, 106);
+    }
+
+    h4 {
+        margin: 0 0 1em 0;
+        color:rgb(63, 40, 27);
+        
+    }
+
+    a {
+        color:rgb(63, 40, 27);
+        text-decoration: none;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.card__content {
+    grid-column: 2;
+}
+
+/* Pseudo elements :before en :after */
+.card a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+a:hover {
+    color: rgb(255, 145, 0);
 }

@@ -1,0 +1,169 @@
+body {
+    Background-color: white;
+    font-family: "Caramel", cursive;
+    font-weight: normal;
+}
+
+h1 {
+    background-color: #49382E;
+    color: white;
+    text-align: center;
+}
+
+.container-grid {
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    grid-auto-rows: 290px;
+
+}
+
+p {
+    color: #49382E;
+    margin-top: 28px;
+}
+
+
+img {
+    border: 2px solid #49382E;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-height: 100%;
+    grid-row: auto;
+    
+}
+
+/*.image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    grid-row: 1 / 8;
+    grid-row: 1 / 8;
+
+} */
+
+
+@media (max-width:768px) {
+    .container-grid {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+    }
+
+    p {
+        grid-row:auto;
+    }
+}
+
+
+
+button {
+    background-color: #49382E;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.sectie1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-color:  #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+    
+}
+
+
+
+.sectie2 {
+    grid-column: 1;
+    grid-row: 2;
+    background-color:  #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+
+.sectie3 {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+
+.sectie4 {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+
+.sectie5 {
+    grid-column: 1;
+    grid-row: 5;
+    background-color: #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+
+.sectie6 {
+    grid-column: 1;
+    grid-row: 6;
+    background-color: #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+
+.sectie7 {
+    grid-column: 1;
+    grid-row: 7;
+    background-color: #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+
+.sectie8 {
+    grid-column: 1;
+    grid-row: 8;
+    background-color: #ecd9c6;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 20px;
+}

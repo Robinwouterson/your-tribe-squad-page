@@ -1,24 +1,28 @@
 /* gebruikte fonts */
 @font-face {
     font-family: "roboto";
-    src: url(../your-tribe-squad-page/fonts/Roboto-Condensed.ttf);
+    src: url(../Jules/fonts/Roboto-Condensed.ttf);
 }
 
 @font-face {
     font-family: "caramel";
-    src: url(../your-tribe-squad-page/fonts/Caramel.ttf);
+    src: url(../Jules/fonts/Caramel.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
     padding: 0;
     text-align: center;                         /* margin + padding vult zo hele scherm, text-align zet tekst in t midden. */
+    scroll-behavior: smooth;
 }
 
 header {
     font-family: "caramel";
-    background-image: url(../your-tribe-squad-page/amstelcampus4.png);
+    background-image: url(../Jules/images/background.png);
     background-size: cover;
     height: 200px;
 }
@@ -58,7 +62,7 @@ section.mugshots {
     background-color: rgb(242, 234, 228);
 
 
-    div{                                        /* foto's naast elkaar. */
+    div {                                        /* foto's naast elkaar. */
         display: grid;
         gap: .5em;
         grid-template-columns: 1fr 1fr;
@@ -68,29 +72,18 @@ section.mugshots {
    
 }
 
-button.visitekaartjes {
+.btn {
+    font-family: "roboto";
     font-size: 16px;
     border-radius: 20px;                        /* zorgt voor ronde randen button */
     border: solid 2px;
     border-color: rgb(166, 134, 106);
-    min-height: 30px;
+    min-height: 300px;
     min-width: 120px;
-    font-family: "roboto";
     background-color: rgb(217, 203, 191);
 }
 
-button.amstelcampus {
-    font-size: 16px;
-    border-radius: 20px;
-    border: solid 2px;
-    border-color: rgb(166, 134, 106);
-    min-height: 30px;
-    min-width: 120px;
-    font-family: "roboto";
-    background-color: rgb(217, 203, 191);
-}
-
-button:hover {
+.btn:hover {
     color: rgb(255, 145, 0);
 }
 
@@ -105,9 +98,9 @@ img {
 /* opmaak van link zelf */
 a:link {
     color: rgb(115, 78, 56);
-    font-family: "caramel";
-    font-size: 26px;
-    text-decoration: none;                     /* geen lijn onder de link */
+    font-family: "roboto";
+    font-size: 16px;
+    text-decoration: none;                      /* geen lijn onder de link */
 }
 
 /* opmaak na het bezoeken vd link */
