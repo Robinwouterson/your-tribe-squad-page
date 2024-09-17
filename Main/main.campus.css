@@ -1,11 +1,11 @@
 body {
-    Background-color: #f9f2ec;
+    Background-color: white;
     font-family: "Caramel", cursive;
     font-weight: normal;
 }
 
 h1 {
-    background-color: #664400;
+    background-color: #49382E;
     color: white;
     text-align: center;
 }
@@ -19,15 +19,21 @@ h1 {
 
 }
 
+p {
+    color: #49382E;
+    margin-top: 28px;
+}
 
 
 img {
-    border: 1px solid white;
+    border: 2px solid #49382E;
     width: 250px;
     height: 250px;
     float: left;
-    margin-left: 30px;
+    margin-left: 28px;
+    margin-right: 28px;
     margin-top: 20px;
+    margin-bottom: 20px;
     max-height: 100%;
     grid-row: auto;
     
@@ -66,19 +72,22 @@ img {
 
 
 button {
-    background-color: #664400;
-    color: white
-
+    background-color: #49382E;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
 }
 
 .sectie1 {
     grid-column: 1;
     grid-row: 1;
     background-color:  #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
+    
 }
 
 
@@ -87,7 +96,7 @@ button {
     grid-column: 1;
     grid-row: 2;
     background-color:  #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
@@ -98,7 +107,7 @@ button {
     grid-column: 1;
     grid-row: 3;
     background-color: #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
@@ -109,7 +118,7 @@ button {
     grid-column: 1;
     grid-row: 4;
     background-color: #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
@@ -120,7 +129,7 @@ button {
     grid-column: 1;
     grid-row: 5;
     background-color: #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
@@ -131,7 +140,7 @@ button {
     grid-column: 1;
     grid-row: 6;
     background-color: #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
@@ -142,7 +151,7 @@ button {
     grid-column: 1;
     grid-row: 7;
     background-color: #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
@@ -153,7 +162,7 @@ button {
     grid-column: 1;
     grid-row: 8;
     background-color: #ecd9c6;
-    color: white;
+    color: #49382E;
     text-align: center;
     font-size: 17px;
     border-radius: 20px;
