@@ -61,11 +61,11 @@ header h1 {
     max-width: 500px;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    max-width: 800px;
-    background-color: #F1EAE5;
-    margin: auto;
-    text-align: center;
+.footer {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: #3C291D;
+    background-color: #745C4D;
+    font-family: Arial, Helvetica, sans-serif;
 }
