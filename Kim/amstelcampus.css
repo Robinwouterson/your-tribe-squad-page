@@ -27,18 +27,23 @@ header h1 {
 .content {
     width: 80%;
     margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    grid-gap: 0px 0px;
 }
 
 img {
     border: 2px solid #A1876E;
     object-fit: cover;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 20px;
 }
 
 .text {
     flex: 2;
+    
 }
 
 .text h2 {
@@ -92,5 +97,5 @@ footer {
     list-style-type: none;
     text-align: auto;
     font-size: small;
-
+    color:#f2ebe4;
 }
