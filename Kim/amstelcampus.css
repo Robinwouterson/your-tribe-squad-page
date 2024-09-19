@@ -5,6 +5,10 @@
     font-family: Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f2ebe4;
     color: #4d3629;
@@ -15,7 +19,7 @@ body {
 header {
     background-color: #745C4D;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header h1 {
@@ -98,4 +102,16 @@ footer {
     text-align: auto;
     font-size: small;
     color:#f2ebe4;
+}
+
+a {
+    color: #f2ebe4;
+    text-align: center;
+    margin: 2em;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #3C291D;
 }
