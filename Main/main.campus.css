@@ -13,15 +13,17 @@ h1 {
     background-color: #49382E;
     color: white;
     text-align: center;
+    margin-bottom: 1cm;
 }
 
 .container-grid {
 
     display: grid;
-    border: 1px solid #49382E;
     grid-template-columns: repeat(autofit, minmax(300px, 1fr));
     gap: 15px;
     justify-content: center;
+    margin-top: 1cm;
+    
     /*grid-gap: 20px;*/
     /*grid-auto-rows: 290px;*/
     
@@ -33,6 +35,10 @@ h1 {
 p {
     color: #49382E;
     margin-top: 28px;
+}
+
+p.p1 {
+    margin-left: 10px;
 }
 
 
@@ -69,7 +75,8 @@ button {
     font-size: 17px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;    
+    margin-bottom: 3cm;    
+    margin-top: 2cm; 
 }
 
 
@@ -81,12 +88,12 @@ button {
     text-align: center;
     font-size: 17px;
     /*grid-gap: 20px;*/
-    border-style:groove;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;
+    margin-bottom: 3cm;
     width: fit-content;
-
+    margin-bottom: 3cm; 
+    border-style:groove;
 }
 
 
@@ -98,8 +105,7 @@ button {
     font-size: 17px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;
-}
+    margin-bottom: 3cm; }
 
 
 .sectie4 {
@@ -111,8 +117,7 @@ button {
     border-style:groove;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;
-}
+    margin-bottom: 3cm; }
 
 
 .sectie5 {
@@ -123,8 +128,7 @@ button {
     font-size: 17px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;
-
+    margin-bottom: 3cm; 
 }
 
 
@@ -137,8 +141,7 @@ button {
     border-style:groove;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;
-
+    margin-bottom: 3cm; 
 }
 
 
@@ -150,8 +153,7 @@ button {
     font-size: 17px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;
-
+    margin-bottom: 3cm; 
 }
 
 
@@ -164,8 +166,7 @@ button {
     border-style:groove;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: auto;
-
+    margin-bottom: 3cm; 
 }
 
 

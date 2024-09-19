@@ -1,0 +1,37 @@
+footer {
+    background-color: cyan;
+    color: black;
+    margin-top: 25px;
+}
+
+
+.footer_info {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 1cm;
+    
+
+}
+
+
+.footer_info .footer_width {
+    padding: 0 15px;
+}
+
+
+.footer_info h2 {
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+}
+
+
+.about , .contact {
+    width: 40%;
+}
+
+
+.link {
+    width: 20;
+}
