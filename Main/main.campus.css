@@ -13,7 +13,6 @@ h1 {
     background-color: #49382E;
     color: white;
     text-align: center;
-    margin-bottom: 1cm;
 }
 
 .container-grid {
@@ -93,7 +92,6 @@ button {
     margin-bottom: 3cm;
     width: fit-content;
     margin-bottom: 3cm; 
-    border-style:groove;
 }
 
 
@@ -114,7 +112,6 @@ button {
     color: #49382E;
     text-align: center;
     font-size: 17px;
-    border-style:groove;
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 3cm; }
@@ -138,7 +135,6 @@ button {
     color: #49382E;
     text-align: center;
     font-size: 17px;
-    border-style:groove;
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 3cm; 
@@ -163,7 +159,6 @@ button {
     color: #49382E;
     text-align: center;
     font-size: 17px;
-    border-style:groove;
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 3cm; 
