@@ -42,7 +42,10 @@
 .navigation {
     float: right;
     height: 100%;
+
 }
+
+
 
 
 .navigation a {
@@ -67,3 +70,4 @@
     font-family: 'Montserrat';
     font-size: 16px;
 }
+
