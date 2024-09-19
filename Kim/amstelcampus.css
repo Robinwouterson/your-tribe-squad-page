@@ -1,50 +1,101 @@
-main {
-    background-color: #F1EAE5;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2ebe4;
+    color: #4d3629;
+    line-height: 1.6;
+    display: grid;
 }
 
 header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
-    color: #D7CBC0;
     background-color: #745C4D;
     text-align: center;
+    padding: 20px 0;
 }
 
-.tekst {
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+    color: #f2ebe4;
+}
+
+.content {
+    width: 80%;
+    margin: 50px auto;
     display: grid;
-    gap: 1em;
-    grid-column-start: auto;
-    grid-template-columns: 1fr 3fr;
-    color: #3C291D;
-    background-color: #F1EAE5;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    align-items: center;
-}
-
-h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    color: #3C291D;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    grid-gap: 0px 0px;
 }
 
 img {
-    width: 280px;
+    border: 2px solid #A1876E;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
 
-a {
-    text-decoration: none;
+.text {
+    flex: 2;
+    
+}
+
+.text h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    color: #3C291D;
+}
+
+.text p {
+    font-size: 1em;
+    color: #4d3629;
+    max-width: 500px;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    max-width: 800px;
-    background-color: #F1EAE5;
-    margin: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #745C4D;
     text-align: center;
+
+    .kopje {
+        font-family: 'Brush Script MT', cursive;
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+    
+    h2 {
+        font-family: 'Brush Script MT', cursive;
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+
+    img {
+        object-fit: cover;
+        width: 25px;
+        height: 25px;
+        margin: 10px; 
+        border: none;
+    }
+}
+
+.lijst {
+    padding: 1%;
+    text-size-adjust: 50%;
+    width: 100%;
+    background: #745C4D;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: auto;
+    font-size: small;
+    color:#f2ebe4;
 }
