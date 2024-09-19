@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2ebe4;
+    color: #4d3629;
+    line-height: 1.6;
+    display: grid;
+    padding: 1%
+}
+
+header {
+    background-color: #745C4D;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+    color: #f2ebe4;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3C291D;
+}
+
+.tekst {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    color: #3C291D;
+    background-color: #F1EAE5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mugshots {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 2px solid #A1876E;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: #4d3629;
+    max-width: 500px;
+    text-align: center;
+}
+
+button {
+    background-color: #D7CBC0;
+    border: 2px solid #A1876E;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #745C4D;
+    text-align: center;
+
+    .kopje {
+        font-family: 'Brush Script MT', cursive;
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+
+    h2 {
+        font-family: 'Brush Script MT', cursive;
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+
+    img {
+        object-fit: cover;
+        width: 25px;
+        height: 25px;
+        margin: 10px;
+        border: none;
+    }
+}
+
+.lijst {
+    padding: 1%;
+    text-size-adjust: 50%;
+    width: 100%;
+    background: #745C4D;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: auto;
+    font-size: small;
+    color: #d9cfc6;
+}

@@ -1,0 +1,244 @@
+/* gebruikte fonts */
+@font-face {
+    font-family: "roboto";
+    src: url(../Jules/fonts/Roboto-Condensed.ttf);
+}
+
+@font-face {
+    font-family: "caramel";
+    src: url(../Jules/fonts/Caramel.ttf);
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;                         /* margin + padding vult zo hele scherm, text-align zet tekst in t midden. */
+    scroll-behavior: smooth;
+}
+
+header {
+    font-family: "caramel";
+    background-image: url(../Jules/images/background.png);
+    background-size: cover;
+}
+
+
+p {
+    font-family: "roboto";
+    color:rgb(63, 40, 27);
+}
+h1 {
+    font-size: 2.5em;
+    color: rgb(217, 203, 191);
+    margin: 0;
+    text-align: center;
+    padding: 1em .5em;                              /* de padding zorgt ervoor dat ook van boven/onder in t midden staat */
+}
+
+@media (width > 480px) {
+    h1 {
+        font-size: 3.5em;
+        padding: 1em .5em;  
+    }
+}
+
+@media (width > 980px) {
+    h1 {
+        font-size: 4.5em;
+        padding: 1em .5em;  
+    }
+}
+h2 {
+    font-size: 2em;
+    font-family: "roboto";
+    color:rgb(63, 40, 27);
+}
+h3 {
+    font-size: 2em;
+    font-family: "roboto";
+    color:rgb(63, 40, 27);
+}
+
+section {
+    padding: 5px;                               /* laat de section op de header aansluiten. */
+}
+
+section.inleiding {
+    background-color: rgb(242, 234, 228);
+}
+
+.btn {
+    font-family: "roboto";
+    font-size: 16px;
+    border-radius: 20px;                        /* zorgt voor ronde randen button */
+    border: solid 2px;
+    border-color: rgb(166, 134, 106);
+    background-color: rgb(217, 203, 191);
+    padding:.5em;
+}
+
+.btn:hover {
+    color: rgb(255, 145, 0);
+}
+
+
+@media (width > 640px) {
+    section.inleiding {
+        display:grid;
+        grid-template-rows:repeat(3, auto);
+        grid-auto-flow: column;
+        place-content: center;
+        column-gap:10%;
+    }
+
+    .btn {
+        justify-self:center;
+    }
+}
+
+section.mugshots {
+    padding-top: 45px;                          /* meer ruimte tussen mugshots en inleiding */
+    background-color: rgb(242, 234, 228);
+    padding-bottom: 100px;
+
+
+    div {                                        /* foto's naast elkaar. */
+        display: grid;
+        gap: .5em;
+        grid-template-columns: 1fr 1fr;
+        align-content: normal;
+        align-content: center;
+    
+        @media (width < 400px) {
+            grid-template-columns: 1fr;
+        }
+
+        @media (width > 400px) {
+            grid-template-columns: 1fr 1fr;
+        } 
+        
+        @media (width > 620px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+            
+        @media (width > 980px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media (width > 1280px) {
+            grid-template-columns: repeat(5, 1fr);
+        }
+    }
+   
+}
+
+/* fotos in een grid */
+.mugshots article {
+    display: grid;
+    justify-items: center;
+    gap:.5em;
+}
+
+/* opmaak afbeeldingen mugshots */
+img {
+    width: 10em;
+    border: solid 5px;
+    border-color: rgb(166, 134, 106);
+}
+
+
+/* opmaak van link zelf */
+a {
+    color: rgb(115, 78, 56);
+    font-size: 1.5em;
+    text-decoration: none;                      /* geen lijn onder de link */
+}
+
+/* opmaak na het bezoeken vd link */
+a:visited {
+    color: rgb(63, 40, 27);
+}
+
+/* opmaak als je met muis over link heen gaat */
+a:hover {
+    color: rgb(255, 145, 0);
+}
+
+.mugshots a {
+    font-family: "caramel";
+}
+
+
+
+footer {
+    background: #745C4D;
+    text-align: center;
+    font-family: "roboto";
+
+    .kopje {
+        font-family: 'caramel';
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+    
+    h2 {
+        font-family: 'caramel';
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+
+    img {
+        object-fit: cover;
+        width: 25px;
+        height: 25px;
+        margin: 10px; 
+        border: none;
+    }
+
+    ul {
+    padding: 2.5px;
+    margin: 0;
+    font-size: 1.17em;
+    }
+
+    a {
+        font-size: 1em;
+        color: #f2ebe4;
+    }
+}
+
+.lijst {
+    text-size-adjust: 50%;
+    width: 100%;
+    background: #745C4D;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: auto;
+    font-size: small;
+    color:#f2ebe4;
+}
+
+h4 {
+    margin: 0;
+    padding: 5px;
+    
+}
+
+a:hover {
+    color: rgb(255, 145, 0);
+}
+
+
+
+/* a {
+    text-decoration: none;
+    color: #f2ebe4;
+
+} */
