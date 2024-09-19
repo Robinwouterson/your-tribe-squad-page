@@ -9,6 +9,8 @@
     src: url(../Jules/fonts/Caramel.ttf);
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,8 +26,9 @@ header {
     font-family: "caramel";
     background-image: url(../Jules/images/background.png);
     background-size: cover;
-    height: 200px;
+    /* height: 200px; */
 }
+
 
 
 p {
@@ -33,11 +36,25 @@ p {
     color:rgb(63, 40, 27);
 }
 h1 {
-    font-size: 4em;
+    font-size: 2.5em;
     color: rgb(217, 203, 191);
     margin: 0;
     text-align: center;
-    padding: 50px;                              /* de padding zorgt ervoor dat ook van boven/onder in t midden staat */
+    padding: 1em .5em;                              /* de padding zorgt ervoor dat ook van boven/onder in t midden staat */
+}
+
+@media (width > 480px) {
+    h1 {
+        font-size: 3.5em;
+        padding: 1em .5em;  
+    }
+}
+
+@media (width > 980px) {
+    h1 {
+        font-size: 4.5em;
+        padding: 1em .5em;  
+    }
 }
 h2 {
     font-size: 2em;
@@ -47,6 +64,7 @@ h2 {
 h3 {
     font-size: 2em;
     font-family: "roboto";
+    color:rgb(63, 40, 27);
 }
 
 section {
@@ -57,9 +75,39 @@ section.inleiding {
     background-color: rgb(242, 234, 228);
 }
 
+.btn {
+    font-family: "roboto";
+    font-size: 16px;
+    border-radius: 20px;                        /* zorgt voor ronde randen button */
+    border: solid 2px;
+    border-color: rgb(166, 134, 106);
+    background-color: rgb(217, 203, 191);
+    padding:.5em;
+}
+
+.btn:hover {
+    color: rgb(255, 145, 0);
+}
+
+
+@media (width > 640px) {
+    section.inleiding {
+        display:grid;
+        grid-template-rows:repeat(3, auto);
+        grid-auto-flow: column;
+        place-content: center;
+        column-gap:10%;
+    }
+
+    .btn {
+        justify-self:center;
+    }
+}
+
 section.mugshots {
     padding-top: 45px;                          /* meer ruimte tussen mugshots en inleiding */
     background-color: rgb(242, 234, 228);
+    padding-bottom: 45px;
 
 
     div {                                        /* foto's naast elkaar. */
@@ -68,23 +116,35 @@ section.mugshots {
         grid-template-columns: 1fr 1fr;
         align-content: normal;
         align-content: center;
+    
+        @media (width < 400px) {
+            grid-template-columns: 1fr;
+        }
+
+        @media (width > 400px) {
+            grid-template-columns: 1fr 1fr;
+        } 
+        
+        @media (width > 620px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+            
+        @media (width > 980px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media (width > 1280px) {
+            grid-template-columns: repeat(5, 1fr);
+        }
     }
    
 }
 
-.btn {
-    font-family: "roboto";
-    font-size: 16px;
-    border-radius: 20px;                        /* zorgt voor ronde randen button */
-    border: solid 2px;
-    border-color: rgb(166, 134, 106);
-    min-height: 300px;
-    min-width: 120px;
-    background-color: rgb(217, 203, 191);
-}
 
-.btn:hover {
-    color: rgb(255, 145, 0);
+.mugshots article {
+    display: grid;
+    justify-items: center;
+    gap:.5em;
 }
 
 /* opmaak afbeeldingen mugshots */
@@ -96,10 +156,9 @@ img {
 
 
 /* opmaak van link zelf */
-a:link {
+a {
     color: rgb(115, 78, 56);
-    font-family: "roboto";
-    font-size: 16px;
+    font-size: 1.5em;
     text-decoration: none;                      /* geen lijn onder de link */
 }
 
@@ -111,5 +170,9 @@ a:visited {
 /* opmaak als je met muis over link heen gaat */
 a:hover {
     color: rgb(255, 145, 0);
+}
+
+.mugshots a {
+    font-family: "caramel";
 }
 
