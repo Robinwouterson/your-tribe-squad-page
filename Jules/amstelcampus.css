@@ -8,6 +8,9 @@
     src: url(../Jules/fonts/Caramel.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -23,8 +26,6 @@ header {
     /* background-color: rgb(166, 134, 106);
     align-content: center; */
 }
-
-
 
 p {
     font-family: "roboto";
@@ -150,3 +151,60 @@ a:hover {
     }
 }
 
+
+footer {
+    background: #745C4D;
+    text-align: center;
+
+    .kopje {
+        font-family: 'caramel';
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+    
+    h2 {
+        font-family: 'caramel';
+        font-size: 2em;
+        color: #f2ebe4;
+    }
+
+    img {
+        object-fit: cover;
+        width: 25px;
+        height: 25px;
+        margin: 10px; 
+        border: none;
+    }
+}
+
+.lijst {
+    text-size-adjust: 50%;
+    width: 100%;
+    background: #745C4D;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: auto;
+    font-size: small;
+    color:#f2ebe4;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+ul {
+    padding: 2.5px;
+    margin: 0;
+}
+
+section {
+
+}
+
+a {
+    text-decoration: none;
+    color: #f2ebe4;
+
+}
