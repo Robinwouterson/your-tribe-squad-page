@@ -23,37 +23,35 @@ header {
 }
 
 header h1 {
-    font-family: 'Brush Script MT', cursive;
+    font-family: "Caramel", cursive;
     font-size: 3em;
     color: #f2ebe4;
 }
 
 .content {
     width: 80%;
-    margin: 50px auto;
+    margin: 30px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh;
+    grid-template-rows: 50vh;
     grid-gap: 0px 0px;
 }
 
 img {
-    border: 2px solid #A1876E;
+    border: 2px solid #4d3629;
     object-fit: cover;
-    width: 300px;
     height: 300px;
     margin: 20px;
 }
 
 .text {
     flex: 2;
-    
 }
 
-.text h2 {
-    font-size: 1.5em;
+h2 {
+    font-size: 40px;
     margin-bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Caramel", cursive;
     color: #3C291D;
 }
 
@@ -71,13 +69,13 @@ footer {
     text-align: center;
 
     .kopje {
-        font-family: 'Brush Script MT', cursive;
+        font-family: "Caramel", cursive;
         font-size: 2em;
         color: #f2ebe4;
     }
     
     h2 {
-        font-family: 'Brush Script MT', cursive;
+        font-family: "Caramel", cursive;
         font-size: 2em;
         color: #f2ebe4;
     }
