@@ -26,6 +26,6 @@ Wij hebben hierbij rekening gehouden met de uiterlijk op verschillende schermgro
 
 
 
-!Screenshot![alt text](<../Screenshot 2024-09-20 040016h.png>)
+!Screenshot!![alt text](<Screenshot 2024-09-20 040016h.png>)
 
 Verder hebben we ook rekening gehouden met de responisvess. Dit hebben toegepast met o.a. de @media selector en met properties als 'grid-template-columns: repeat(auto-fit, px);
