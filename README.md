@@ -5,11 +5,11 @@ https://edu.nl/hxbp6
 
 **De Team**
 
-Kim, Jules en Robin hebben samen een Squad Page gebouwd. Daarnaast heeft iedereen ook zijn eigen page uitgebouwd. 
+- Kim, Jules en Robin hebben samen een Squad Page gebouwd. Daarnaast heeft iedereen ook zijn eigen page uitgebouwd. 
 
 **Wat hebben we gedaan?**
 
-Wij hebben een landingspagina gemaakt (Landingspagina.html) met daarop links naar alle squad pages. 
+- Wij hebben een landingspagina gemaakt (Landingspagina.html) met daarop links naar alle squad pages. 
 
 Bijna al onze squad pages hebben het volgende met elkaar in gemeen:
 
