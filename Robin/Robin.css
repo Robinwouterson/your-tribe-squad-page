@@ -31,16 +31,20 @@ body {
 
 .grid-container2 {
     border: 10px solid cyan;
+    margin-left: 25px;
+    margin-right: 25px;
+    
 }
 
 
 .grid-container {
     border: 6px solid black;
     border-style: groove;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 1cm;
-    margin-top: 1cm;
+    background-color: aqua;
+    
 }
 
 
@@ -51,17 +55,18 @@ body {
     grid-template-columns: repeat(auto-fit, 250px);
     gap: 15px;
     justify-content: center;
-    
+    border-radius: 20px;
 
 }
 
-nestgrid {
+/*.nestgrid {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-gap: 10px;
     padding: 10px;
     grid-auto-rows: 190px;
-}
+    
+}*/
     
 
 
@@ -80,6 +85,7 @@ img {
     height: 100px;
     display: block;
     background-color: cyan;
+    
 }
 
 
@@ -117,8 +123,9 @@ img {
 
 
 .navigation {
-    float: right;
+    
     height: 100%;
+    float:right;
 
 }
 
@@ -155,6 +162,9 @@ footer {
     background-color: cyan;
     color: black;
     margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
 }
 
 
@@ -204,3 +214,14 @@ footer {
         grid-row: auto;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
