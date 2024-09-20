@@ -5,7 +5,7 @@ https://edu.nl/hxbp6
 
 **De Team & Wat hebben we gedaan?**
 
-- Kim, Jules en Robin hebben samen een Squad Page gebouwd. Daarnaast heeft iedereen ook zijn eigen page uitgebouwd. 
+- Kim, Jules en Robin hebben samen een Squad Page gebouwd. Daarnaast heeft iedereen individueel ook zijn eigen Squad page uitgebouwd. 
 
 - Wij hebben een landingspagina gemaakt (Landingspagina.html) met daarop links naar alle squad pages. 
 
